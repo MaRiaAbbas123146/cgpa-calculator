@@ -90,7 +90,7 @@ const CGPACalculator = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-indigo-100 py-8 px-4">
+    <div className="min-h-screen bg-linear-to-br from-blue-50 to-indigo-100 py-8 px-4">
       <div className="max-w-4xl mx-auto">
         {/* Header */}
         <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
@@ -228,7 +228,7 @@ const CGPACalculator = () => {
 
         {/* CGPA Result */}
         {cgpa !== null && (
-          <div className="bg-gradient-to-r from-green-500 to-emerald-600 rounded-lg shadow-lg p-8 text-white text-center">
+          <div className="bg-linear-to-r from-green-500 to-emerald-600 rounded-lg shadow-lg p-8 text-white text-center">
             <h2 className="text-2xl font-semibold mb-2">Your CGPA</h2>
             <div className="text-6xl font-bold mb-2">{cgpa}</div>
             <p className="text-lg opacity-90">
