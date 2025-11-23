@@ -1,0 +1,53 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* Hero background image */
+.hero {
+  background: url('images/home.jpg') no-repeat center/cover;
+  min-height: 100vh;
+}
+
+/* Appointment Card hover */
+.appointment-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 123, 255, 0.2);
+}
+
+/* Service Card hover */
+.service-card:hover {
+  transform: translateY(-8px);
+  background-color: #f0f8ff;
+  box-shadow: 0 10px 25px rgba(13, 110, 253, 0.2);
+}
+
+.service-card:hover .icon-wrapper i {
+  transform: scale(1.2);
+}
+
+/* Back to top button */
+#backToTop {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+  border-radius: 50%;
+  padding: 10px 12px;
+}
+
+/* Footer hover effects */
+.footer-link {
+  transition: 0.3s ease;
+}
+
+.footer-link:hover {
+  transform: translateX(5px);
+}
+
+.footer-section .social-icons a {
+  transition: all 0.3s ease;
+}
+
+.footer-section .social-icons a:hover {
+  transform: scale(1.2);
+}
