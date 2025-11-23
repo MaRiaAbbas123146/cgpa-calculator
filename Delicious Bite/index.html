@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Delicious Bites - Fine Dining Experience</title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet">
+
+</head>
+
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg custom-navbar sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="#home">
+        <i class="fas fa-utensils"></i> Delicious Bites
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link" href="#login">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero-section">
+    <div class="container">
+      <h1>Welcome to Delicious Bites</h1>
+      <p>Experience Fine Dining at Its Best</p>
+      <p style="color: white; font-size: 1.2rem;">Authentic flavors, elegant ambiance, unforgettable moments</p>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <h2 class="section-title">Our Menu</h2>
+
+      <!-- Starters -->
+      <div class="menu-category">
+        <h3 class="category-title"><i class="fas fa-fire"></i> Starters</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="menu-item">
+              <img
+                src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23ff6b6b' width='400' height='300'/><text x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='24' font-family='Arial'>Crispy Calamari</text></svg>"
+                alt="Crispy Calamari">
+              <h5>Crispy Calamari</h5>
+              <p>Lightly fried squid rings served with tangy aioli sauce</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="price">$12.99</span>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item">
+              <img
+                src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23ffa500' width='400' height='300'/><text x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='24' font-family='Arial'>Bruschetta</text></svg>"
+                alt="Bruschetta">
+              <h5>Classic Bruschetta</h5>
+              <p>Toasted bread topped with fresh tomatoes, basil, and garlic</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="price">$9.99</span>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Main Course -->
+      <div class="menu-category">
+        <h3 class="category-title"><i class="fas fa-drumstick-bite"></i> Main Course</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="menu-item">
+              <img
+                src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%238b4513' width='400' height='300'/><text x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='24' font-family='Arial'>Grilled Steak</text></svg>"
+                alt="Grilled Steak">
+              <h5>Prime Grilled Steak</h5>
+              <p>12oz ribeye with roasted vegetables and mashed potatoes</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="price">$34.99</span>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item">
+              <img
+                src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23ff8c00' width='400' height='300'/><text x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='24' font-family='Arial'>Salmon Fillet</text></svg>"
+                alt="Salmon">
+              <h5>Herb-Crusted Salmon</h5>
+              <p>Fresh Atlantic salmon with lemon butter sauce and asparagus</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="price">$28.99</span>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Desserts -->
+      <div class="menu-category">
+        <h3 class="category-title"><i class="fas fa-ice-cream"></i> Desserts</h3>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="menu-item">
+              <img
+                src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23654321' width='400' height='300'/><text x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='24' font-family='Arial'>Tiramisu</text></svg>"
+                alt="Tiramisu">
+              <h5>Classic Tiramisu</h5>
+              <p>Layers of coffee-soaked ladyfingers and mascarpone cream</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="price">$8.99</span>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="menu-item">
+              <img
+                src="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 300'><rect fill='%23dc143c' width='400' height='300'/><text x='50%25' y='50%25' text-anchor='middle' dy='.3em' fill='white' font-size='24' font-family='Arial'>Lava Cake</text></svg>"
+                alt="Lava Cake">
+              <h5>Chocolate Lava Cake</h5>
+              <p>Warm chocolate cake with molten center and vanilla ice cream</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <span class="price">$9.99</span>
+                <button class="order-btn">Order Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Login Section -->
+  <section id="login" class="login-section">
+    <div class="container">
+      <div class="login-form">
+        <h3 class="text-center"><i class="fas fa-user-lock"></i> Staff Login</h3>
+        <form id="loginForm">
+          <div class="mb-3">
+            <label for="username" class="form-label">Username</label>
+            <input type="text" class="form-control" id="username" placeholder="Enter username" required>
+          </div>
+          <div class="mb-3">
+            <label for="password" class="form-label">Password</label>
+            <input type="password" class="form-control" id="password" placeholder="Enter password" required>
+          </div>
+          <button type="submit" class="btn btn-login">Login</button>
+          <p class="text-center mt-3 text-muted"><small>For layout and design practice only - no authentication
+              required</small></p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- Orders Section (Hidden by default) -->
+  <section id="orders" class="orders-section">
+    <div class="container">
+      <h2 class="section-title">Current Orders</h2>
+      <div class="orders-table">
+        <table class="table table-hover">
+          <thead class="table-dark">
+            <tr>
+              <th>Order ID</th>
+              <th>Table Number</th>
+              <th>Items</th>
+              <th>Status</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>#ORD-001</td>
+              <td>Table 5</td>
+              <td>Prime Grilled Steak, Classic Tiramisu</td>
+              <td><span class="badge bg-warning badge-status">Preparing</span></td>
+            </tr>
+            <tr>
+              <td>#ORD-002</td>
+              <td>Table 12</td>
+              <td>Herb-Crusted Salmon, Chocolate Lava Cake</td>
+              <td><span class="badge bg-success badge-status">Served</span></td>
+            </tr>
+            <tr>
+              <td>#ORD-003</td>
+              <td>Table 8</td>
+              <td>Crispy Calamari, Classic Bruschetta</td>
+              <td><span class="badge bg-info badge-status">Completed</span></td>
+            </tr>
+            <tr>
+              <td>#ORD-004</td>
+              <td>Table 3</td>
+              <td>Prime Grilled Steak, Herb-Crusted Salmon</td>
+              <td><span class="badge bg-warning badge-status">Preparing</span></td>
+            </tr>
+            <tr>
+              <td>#ORD-005</td>
+              <td>Table 15</td>
+              <td>Chocolate Lava Cake, Classic Tiramisu</td>
+              <td><span class="badge bg-success badge-status">Served</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <h5><i class="fas fa-utensils"></i> Delicious Bites</h5>
+          <p>Experience the finest dining in town with our exquisite menu and elegant atmosphere.</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Contact Information</h5>
+          <p><i class="fas fa-map-marker-alt"></i> 456 Gourmet Street, Rawalpindi</p>
+          <p><i class="fas fa-phone"></i> +92 51 1234567</p>
+          <p><i class="fas fa-envelope"></i> info@deliciousbites.com</p>
+        </div>
+        <div class="col-md-4 mb-4">
+          <h5>Follow Us</h5>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+      <hr style="border-color: rgba(255,255,255,0.2);">
+      <div class="text-center">
+        <p>&copy; 2025 Delicious Bites Restaurant - All Rights Reserved</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
