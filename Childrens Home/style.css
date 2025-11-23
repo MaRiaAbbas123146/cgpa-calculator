@@ -1,0 +1,96 @@
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.theme-bg {
+  background: #6a4c93;
+}
+
+.theme-text {
+  color: #6a4c93;
+}
+
+.hero {
+  position: relative;
+  height: 85vh;
+  background: linear-gradient(rgba(61, 30, 99, 0.4), rgba(54, 30, 84, 0.4)),
+    url('images/hero img.jpg') center/cover no-repeat;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.my-style {
+  color: #5a3d7f;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+
+}
+
+.btn-theme {
+  background: #6a4c93;
+  color: #fff;
+}
+
+.btn-theme:hover {
+  background: #5a3d7f;
+}
+
+/* === Animation for Services Cards === */
+.animate-card {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeUp 0.8s ease-out forwards;
+}
+
+.animate-card:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.animate-card:nth-child(2) {
+  animation-delay: 0.4s;
+}
+
+.animate-card:nth-child(3) {
+  animation-delay: 0.6s;
+}
+
+.animate-card:nth-child(4) {
+  animation-delay: 0.8s;
+}
+
+/* Animation Keyframe */
+@keyframes fadeUp {
+  0% {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Hover effect on service cards */
+.animate-card {
+  transition: all 0.4s ease-in-out;
+}
+
+.animate-card:hover {
+  background: #5a3d7f;
+  color: white;
+  transform: translateY(-10px) scale(1.03);
+  cursor: pointer;
+}
+
+.animate-card:hover i,
+.animate-card:hover h5,
+.animate-card:hover p {
+  color: white !important;
+}
